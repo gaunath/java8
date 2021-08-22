@@ -36,7 +36,7 @@ public class BookService {
 
 		System.out.println("sorted Traditional "+ new BookService().sortBookByname());
 		
-		System.out.println("sorted lamda expression "+ new BookService().sortBookByname());
+		System.out.println("sorted lamda expression "+ new BookService().sortBookBynameLamda());
 	}
 
 }
