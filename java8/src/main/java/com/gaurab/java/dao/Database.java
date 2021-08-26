@@ -5,6 +5,7 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Random;
 import java.util.function.Consumer;
 
 import com.gaurab.java.dto.Customer;
@@ -56,5 +57,13 @@ public class Database {
 		
 		
 		return customers;	
+	}
+	
+	public static List<Employee> getThousandData(){
+		List<Employee> empdta = new ArrayList<>();
+		for(int i=0;i<=10000;i++) {
+			empdta.add(new Employee(i, "employee"+i,"A" , Long.valueOf(new Random().nextInt(1000*100))));
+		}	
+		return empdta;		
 	}
 }
