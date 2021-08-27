@@ -1,4 +1,4 @@
-package com.gaurab.java.datastructures.linkedlist;
+package com.gaurab.java.datastructures.linkedList;
 
 public class Runner {
 	public static void main(String[] args) {

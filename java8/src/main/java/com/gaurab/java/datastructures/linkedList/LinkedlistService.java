@@ -1,4 +1,4 @@
-package com.gaurab.java.datastructures.linkedlist;
+package com.gaurab.java.datastructures.linkedList;
 
 class Node {
 	int data;
